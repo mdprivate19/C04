@@ -1,0 +1,30 @@
+ex02
+
+int main()
+{
+	ft_putnbr(42);
+    return(0);
+}
+
+ex03
+
+#include <stdio.h>
+ 
+ int     main()
+{
+    char    c[] = "--+--12f3456ds789";
+    printf("%d", ft_atoi(c));
+    return (0);
+}
+
+2eme version main
+
+#include <stdio.h>
+
+int	main(int argc, char **argv)
+{
+	if (argc != 2)
+		return (0);
+	printf("%d\n", ft_atoi(argv[1]));
+	return (0);
+}
